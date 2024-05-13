@@ -4,7 +4,7 @@ function Main() {
 
             <div className="row">
                 <div className="column left">
-                    <img id="selfie" src="src/assets/me.png" alt="it's me" />
+                    <img id="selfie" src="/src/assets/me.png" alt="it's me" />
                 </div>
                 <div className="column right">
                     <h2>Virve Rajasärkkä</h2>
