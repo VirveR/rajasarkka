@@ -1,0 +1,99 @@
+body {
+  background-image: url("assets/news.jpg");
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Special Elite";
+  font-size: 18pt;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+#root {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right {
+  width: 40%;
+  padding-left: 20px;
+  justify-content: center;
+}
+
+.left {
+  width: 40%;
+  padding-right: 20px;
+  justify-content: center;
+}
+
+.full {
+  width: 80%;
+  justify-content: center;
+}
+
+#page-content {
+  width: 90%;
+  height: 100%;
+  margin-top: 30px;
+  background-color:rgb(241, 233, 221);
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  font-size: 48pt;
+  border-bottom: 5px solid black;
+}
+
+h2 {
+  font-size: 32pt;
+}
+
+#selfie {
+  width: 400px;
+  height: auto;
+}
+
+#code {
+  height: 300px;
+  width: auto;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 14pt;
+  }
+
+  .right, .left {
+    width: 80%;
+    border: none;
+  }
+
+  h1 {
+    font-size: 32pt;
+  }
+
+  #selfie, #code {
+    width: 250px;
+    height: auto;
+  }
+}
